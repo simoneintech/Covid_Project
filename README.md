@@ -1,7 +1,7 @@
 # PortfolioProjects
 
 Hi! My name is Simone. In this repository you can find the 
-self-study projects I have completed. 
+COVID-19 projects I have completed. 
 
 I do hope you find something interesting! 
 

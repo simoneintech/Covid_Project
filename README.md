@@ -1,4 +1,4 @@
-# PortfolioProjects
+# Covid-19 Project
 
 Hi! My name is Simone. In this repository you can find the 
 COVID-19 projects I have completed. 

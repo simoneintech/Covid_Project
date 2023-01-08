@@ -1,13 +1,19 @@
 # Covid-19 Project
 
-Hi! My name is Simone. In this repository you can find the 
-COVID-19 projects I have completed. 
+In this repository I have completed a project on COVID-19 <br />
+from the years of 2019-2021. I wanted to understand how COVID-19 <br />
+have effected the world globally. 
 
-I do hope you find something interesting! 
+<b> How I Started </b><br />
+Firstl, I got my dataset from <a href="data.gov">Data.gov</a>. Downloaded 
+this data as a CSV file to do some data cleaning over in Excel. 
 
-If you'd like to collab on a project with me,
-feel free to reach out! 
+<br />
+In excel I anazlyzed my data, wanted to see what information was provdied. <br />
+Got myself familiar with the dataset and went into cleaning my data. 
 
-Open to all feedback and comments!
-
-Thank you :D
+I cleaned up some of the columns with the information I needed for SQL.
+I then created two different worksheets for Vaccinations and one
+for Deaths. <br />
+With this I would be able to analyze my data more clearly in SQL using two
+tables to further help with my analysis. 

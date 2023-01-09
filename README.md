@@ -95,7 +95,7 @@ Join CovidProject..CovidDeaths vac
 where dea.continent  is not null
 order by 2,3
 
-# <b>Problems I ran across</b>
+# <b>Problems I Came Across</b>
 In the table, some continents were labeled as countries, and some continents were null. This was causing me
 to have an inaccurate analysis. I solved this problem, by using applying 
 "where continent is not null" that way, I can then seperate continents that were labeled as countries, as well

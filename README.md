@@ -31,6 +31,7 @@ tables to further help with my analysis.
 
 <b> What is the likelihood of dying if contracted COVID-19? </b>
 <b><u>Query</b></u>: <br />
+	
 SELECT Location, Date, Total_cases, total_deaths, (total_deaths/total_cases)*100 as DeathPercentage
 FROM CovidProject..CovidDeaths
 WHERE location like '%states%'
@@ -39,6 +40,7 @@ Order by 1,2
 
 <b> What percentage of the US has gotten COVID-19?</b>
 <b><u>Query</b></u>: <br />
+	
 SELECT Location, Date, population, Total_cases, (total_cases/population)*100 as CovidPercentage
 FROM CovidProject..CovidDeaths
 WHERE location like '%states%'
@@ -57,6 +59,7 @@ Order by InfectedPopulationPercentage desc
 <br />
 <b>What continents has the highest death count per population?</b>
 <b><u>Query</b></u>: <br />
+	
 SELECT Location, MAX(cast(total_deaths as int)) as TotalDeathCount
 FROM CovidProject..CovidDeaths
 --WHERE location like '%states%'
@@ -67,6 +70,7 @@ Order by TotalDeathCount desc
   
 <b>What continents has the highest death count per population?</b>
 <b><u>Query</b></u>: <br />
+	
 SELECT continent, MAX(cast(total_deaths as int)) as TotalDeathCount
 FROM CovidProject..CovidDeaths
 --WHERE location like '%states%'

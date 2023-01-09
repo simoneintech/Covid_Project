@@ -47,7 +47,7 @@ WHERE location like '%states%'
 AND continent is not null
 Order by 1,2
 
-<b>Which countries has the highest infection rate per population?
+	<b>Which countries has the highest infection rate per population?</b>
 <b><u>Query</b></u>: <br />
 
 SELECT Location, population, MAX(Total_cases) as HighestInfectionCount, MAX((total_cases/population))*100 as InfectedPopulationPercentage
